@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome_header">
+      <h1 class="welcome_header_title">Welcome to Kokoa Clone</h1>
+      <p class="welcome_header_text">
+        카카오톡 아이디 있으면 그걸로 로그인 하삼.
+      </p>
+    </header>
+    <form id="login_form" action="friends.html" method="GET">
+      <input type="text" placeholder="이메일 아니면 전화번호" name="username" />
+      <input type="password" placeholder="비밀번호" name="password" />
+      <input type="submit" value="로그인" class="login_form_input_submit" />
+      <input type="submit" value="회원가입" class="login_form_input_submit" />
+      <a href="#">아이디나 비밀번호를 까먹으셨나요?</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/72fa5791f8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
